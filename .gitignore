@@ -1,0 +1,18 @@
+# 密钥与配置
+_secrets/
+*.key
+.env
+
+# 中间数据与模型输出（体积大、可重建）
+_exp/
+_parsed/
+*.f32
+*.pkl
+embeddings_*.jsonl
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+~$*
+.vscode/
+.idea/
